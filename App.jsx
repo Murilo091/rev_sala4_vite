@@ -11,11 +11,11 @@ function App() {
       </nav>
 
       <main>
-        <section id='s1'>
+        <section id='s1' className={s.s1}>
             <h1>TÍTULO DA EMPRESA</h1>
         </section>
 
-        <section id='s2'>
+        <section id='s2' className={s.s2}>
             <div className={s.left}>
               <img src="../images/caminhao azul.jpg" alt="" />
             </div>
@@ -25,7 +25,7 @@ function App() {
             </div>
         </section>
 
-        <section id='s3'>
+        <section id='s3' className={s.s3}>
               <div className={s.card}>
                 <img src="../images/caminhao cinza.jpg" alt="" />
                 <div className={s.cardTexts}>
